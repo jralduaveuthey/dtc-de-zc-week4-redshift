@@ -5,7 +5,7 @@ sources:
     - name: staging
       #NOTE: you can take the following data from the query in Redshift when you try to query a table: SELECT * FROM "nytaxi"."public"."yellow_tripdata" LIMIT 10;
       database: nytaxi
-      schema: public
+      schema: trip_data_all
 
       # loaded_at_field: record_loaded_at
       tables:
